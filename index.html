@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delhi Kotlin User Group</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="scroll.js" defer></script>
 </head>
 <body>
     <header>
@@ -14,8 +16,7 @@
                 <nav>
                     <ul>
                         <li><a href="#about">About</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="contact.html" target="_blank">Contact Us</a></li>
                     </ul>
                 </nav>
             </div>
@@ -47,32 +48,138 @@ Whether you're a seasoned Kotlin developer, an Android enthusiast looking to exp
         </div>
     </section>
 
-    <div class="external-links">
-        <a href="https://kotlinlang.org/docs/home.html">
-            <img src="i2.jpg" alt="Link to Website 1">
-        </a>
-        <a href="https://www.jetbrains.com/">
-            <img src="i1.jpg" alt="Link to Website 2">
-        </a>
+    <div id="external-links" class="external-links">
+        <div class="link-box" id="box1">
+            <a href="https://kotlinlang.org/docs/home.html">
+                <img src="i2.jpg" alt="Link to Website 1">
+                <p>Learn More</p>
+            </a>
+        </div>
+        <div class="link-box" id="box2">
+            <a href="https://www.jetbrains.com/">
+                <img src="i1.jpg" alt="Link to Website 2">
+                <p>Learn More</p>
+            </a>
+        </div>
     </div>
-    
-    
 
+    <section id="speakers" class="speakers-section">
+        <div class="container">
+            <h2>Our Speakers</h2>
+             <div class="speakers">
+                <div class="speaker">
+                    <img src="atridas.jpeg" alt="Speaker 1">
+                    <h3>Atri Das</h3>
+                    <p>Co-organizer, Kolkata KUG| Android Developer, MaxMobility</p>
+                </div>
+                <div class="speaker">
+                    <img src="sambhranttiwari.jpeg" alt="Speaker 2">
+                    <h3>Sambhrant Tiwari</h3>
+                    <p>Founder, SkillEliters</p>
+                </div>
+                <div class="speaker">
+                    <img src="agamjyotsingh.jpeg" alt="Speaker 3">
+                    <h3>Agamjyot Singh</h3>
+                </div>
+            
+                <div class="speaker">
+                    <img src="sachinsaxena.jpeg" alt="Speaker 4">
+                    <h3>Sachin Saxena</h3>
+                </div>
+                <div class="speaker">
+                    <img src="viveksharma.jpeg" alt="Speaker 5">
+                    <h3>Vivek Sharma</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <section id="team" class="team-section">
         <div class="container">
             <h2>Our Core Team</h2>
             <div class="team-members">
-                <div class="team-member">
-                    <img src="i1.jpg" alt="Mridul Kakkar">
+                <div class="team-member" id="member1">
+                    <img src="mridul.jpg".jpg" alt="Mridul Kakkar">
                     <h3>Mridul Kakkar</h3>
+                    <p class="subtitle">Organizer @ Delhi(NCR) Kotlin User Group | Core Team @ Google DSC | CA @ IIT-D, BITS Pilani</p>
+                <div class="social-links">
+                    <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="github"><i class="fab fa-github"></i></a>
                 </div>
-                <div class="team-member">
-                    <img src="i1.jpg" alt="Yuvraj Singh">
-                    <h3>Yuvraj Singh</h3>
                 </div>
-                <div class="team-member">
-                    <img src="i2.jpg" alt="Team Member 3">
+                <div class="team-member" id="member2">
+                    <img src="i1.jpg" alt="Pragya Pandey">
                     <h3>Pragya Pandey</h3>
+                    <p class="subtitle">President @ AAIC | Intern @ DRDO, Tech Mahindra </p>
+                    <div class="social-links">
+                        <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="github"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="team-member" id="member3">
+                    <img src="abhinay.jpeg" alt="Abhinay Goswami">
+                    <h3>Abhinay Goswami</h3>
+                    <p class="subtitle">MERN Developer | Google-DSC Lead </p>
+                    <div class="social-links">
+                        <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="github"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="team-member" id="member4">
+                    <img src="i2.jpg" alt="Akash Tripathi">
+                    <h3>Akash Tripathi</h3>
+                    <p class="subtitle">Mentee @ Microsoft | Community Growth Manager <br>
+                       @ Where U Elevate | Organizer @ TFUG Ghaziabad
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="github"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="team-member" id="member5">
+                    <img src="yuvraj.jpg" alt="Yuvraj Singh">
+                    <h3>Yuvraj Singh</h3>
+                    <p class="subtitle">Founder @ Be Conteur, Hexane Technologies | Full Stack Developer @ Oopar.club</p>
+                    <div class="social-links">
+                        <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="github"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="team-member" id="member6">
+                    <img src="image.jpg" alt="Divyansh Yagyik">
+                    <h3>Divyansh Yagyik</h3>
+                    <p class="subtitle">Flutter Developer | UI/UX Designer</p>
+                    <div class="social-links">
+                        <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="github"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="team-member" id="member7">
+                    <img src="i2.jpg" alt="Lavanya Jain">
+                    <h3>Lavanya Jain</h3>
+                    <p class="subtitle">Ex-Intern @ DRDO | AI/ML Developer
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="github"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="team-member" id="member8">
+                    <img src="i2.jpg" alt="Devisha Singh">
+                    <h3>Devisha Singh</h3>
+                    <p class="subtitle">Core Team @ Delhi KUG</p>
+                    <div class="social-links">
+                        <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="github"><i class="fab fa-github"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
