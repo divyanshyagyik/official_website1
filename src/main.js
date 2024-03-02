@@ -1,3 +1,8 @@
+import { Application } from '@splinetool/runtime';
+
+const canvas = document.getElementById('canvas3d');
+const app = new Application(canvas);
+app.load('https://prod.spline.design/z1ka1JKMhDDMMMLJ/scene.splinecode');
 window.addEventListener('scroll', function() {
     var scrollPosition = window.scrollY;
     var externalLinksPosition = document.getElementById('external-links').offsetTop;
@@ -90,5 +95,3 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
-
-
